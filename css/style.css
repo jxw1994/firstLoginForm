@@ -1,0 +1,199 @@
+/*公共样式*/
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+ul{
+    list-style: none;
+}
+a{
+	color: #080808;
+}
+
+/*头部样式*/
+
+#header{
+    min-height:100px;
+}
+.header_top>span{
+	color:#eee;	
+	font-weight:bold;
+}
+.header_main{
+    height: 100px;
+    background:url(../images/header.jpg);
+    line-height:70px;
+    padding:15px;
+	position:relative;
+}
+.header_main img{
+	 margin-left: 20px;
+}
+.header_content{
+    line-height: 20px;
+    color:#777;
+    margin-top: 11px;
+    margin-left: 25px;
+}
+.header_content b{
+    font-weight: normal;
+}
+.header_content span{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logoff{
+	position:absolute;
+	top:45px;
+	right:17px;
+	color:#fff;
+	height:30px;
+	vertical-align:middle;
+	font-weight:bold;
+}
+#logoff>a{
+	display:inline-block;
+	color:#fff;
+}
+#logoff>a>span{
+	position:absolute;
+	left:-22px;
+	top:24px;
+	right:10px;
+	height:20px;
+	width:20px;
+	background:url(../images/zxfff.png) no-repeat;
+	background-size:contain;
+	
+}
+#logoff>a:hover{
+	color:#E60011;
+	text-decoration:none;
+}
+#logoff>a:hover span{
+	background:url(../images/zxred.png) no-repeat;
+	background-size:contain;
+}
+
+/*主体样式*/
+#main{
+    overflow: hidden;
+}
+#aside{
+	height: 400px;
+	background: linear-gradient(to bottom,#fff,#eee,#fff);
+}
+.aside{
+	height: 400px;
+	background:url(../images/aside.png) no-repeat 60px 250px;
+}
+.aside p{
+    padding-top:20px;
+    text-align: center;
+    padding-bottom:10px;
+	border-bottom:3px solid #ddd;
+	margin:0 auto;
+}
+.tree{
+	margin-left: -10px;
+    padding-top: 20px;
+}
+.tree li{
+	padding-bottom: 10px;
+}
+.tree>li>span{
+	font-size: 15px;
+	font-weight: bold;
+}
+#foot{
+    text-align: center;
+    margin-top: 40px;
+    width:700px;
+    margin:0 auto;
+}
+/*********登录页***********/
+#login_main{
+	margin:20px auto;
+	width:750px;
+	height:460px;
+	background:url(../images/login.jpg);
+	position:relative;
+}
+#form_content{
+	width:350px;
+	position:absolute;
+	top:153px;
+	left:360px;
+}
+#form_content>h3{
+	margin-bottom:20px;
+	font-weight:bold;
+}
+#form_content label{
+	text-align:right;
+	margin-bottom:15px;
+}
+#form_content label>b{
+	display:inline-block;
+	width:50px;
+	height:14px;
+	text-align:right;
+}
+#form_content label input{
+	outline:0;
+	boeder:0;
+	display:inline-block;
+	width:150px;
+	height:30px;
+	border-radius:5px;
+	padding-left:5px;
+	font-size:12px;
+}
+.info_show{
+	display:inline-block;
+}
+.info_hide{
+	display:none;
+}
+.btns{
+	margin-left:55px;
+}
+.btns input{
+	display:inline-block;
+	width:50px;
+	height:30px;
+	border:1px solid #eee;
+	color:#000;
+	font-weight:bold;
+	border-radius:5px;
+	background-color:#ddd;
+	margin-right:10px;
+}
+.btns input:hover{
+	color:#fff;
+	background-color:#3c76ee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
